@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Tabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTabla"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="27dp" />
+
+    <Button
+        android:text="Calculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonTabla"
+        android:layout_alignLeft="@+id/buttonTabla"
+        android:layout_alignStart="@+id/buttonTabla"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/buttonCalculo" />
+</RelativeLayout>
